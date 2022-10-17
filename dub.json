@@ -1,6 +1,6 @@
 {
-    "name": "crypto",
-    "description": "Library for cryptographic functions used by the BOA blockchain.",
+    "name": "libsodium-crypto",
+    "description": "Libsodium-based cryptographic primitives, including Cruve25519, Blake2b, and Schnorr signatures",
 
     "license": "MIT",
     "authors": [ "BOS Platform Foundation" ],

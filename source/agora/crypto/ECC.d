@@ -337,7 +337,7 @@ public struct Scalar
     }
 
     /// Convenience overload to allow this to be passed to libsodium & co
-    public inout(ubyte)[] opSlice () inout pure
+    public inout(ubyte)[] opSlice () inout return pure
     {
         return this.data[];
     }
@@ -500,7 +500,7 @@ public struct Point
     }
 
     /// Convenience overload to allow this to be passed to libsodium & co
-    public inout(ubyte)[] opSlice () inout pure
+    public inout(ubyte)[] opSlice () inout return pure
     {
         return this.data[];
     }

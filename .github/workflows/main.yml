@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-18.04, macOS-10.15, windows-2019 ]
+        os: [ ubuntu-20.04, macOS-11, windows-2019 ]
         dc: [ ldc-latest, dmd-latest, dmd-2.097.1 ]
         exclude:
           # https://github.com/dlang/dub/issues/1914
